@@ -3,7 +3,10 @@ def BoubleSort(arr: list) -> list:
 
 
 def Reverse(arr: list) -> list:
-    pass
+    reversed_list = []
+    for i in range(len(arr) - 1, -1, -1):
+        reversed_list.append(arr[i])
+    print(reversed_list)
 
 
 if __name__ == "__main__":
